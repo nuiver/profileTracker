@@ -1,1 +1,3 @@
-console.log('Hello World');
+var profile = require("./profile");
+
+profile.get('marknuiver')
