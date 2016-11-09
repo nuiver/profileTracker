@@ -1,3 +1,5 @@
 var profile = require("./profile");
+// console.dir(process.argv);
+var users = process.argv.slice(2);
 
-profile.get('marknuiver')
+users.forEach(profile.get);
